@@ -3,6 +3,10 @@ title: "farsSO_vignette"
 author: "Stephen O."
 date: "8/31/2018"
 output: html_document
+vignette: >
+  %\VignetteEngine{knitr::knitr}
+  %\VignetteIndexEntry{farsSO_vignette}
+  %\usepackage[UTF-8]{inputenc}
 ---
 
 ```{r setup, include=FALSE}
