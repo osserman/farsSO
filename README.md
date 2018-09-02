@@ -1,5 +1,6 @@
 README
 ================
+[![Travis-CI Build Status](https://travis-ci.org/osserman/farsSO.svg?branch=master)](https://travis-ci.org/osserman/farsSO)
 
 farsSO Package
 --------------
