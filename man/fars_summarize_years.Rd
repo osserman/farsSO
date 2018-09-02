@@ -24,6 +24,8 @@ year's files for each month.
 Errors could come from years being improperly formatted.
 }
 \examples{
-fars_summarize_years(list('2002','2007'))
+\dontrun{
+fars_summarize_years(list('2013','2015'))
+}
 
 }

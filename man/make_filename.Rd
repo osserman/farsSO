@@ -20,6 +20,8 @@ of the format "accident_[YEAR].csv.bz2". Errors could result from
 the year being given in a format that cannot be coerced to integer.
 }
 \examples{
-make_filename('2002')
+\dontrun{
+make_filename('2013')
+}
 
 }

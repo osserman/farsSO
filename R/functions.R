@@ -11,7 +11,9 @@
 #'    as a tbl.
 #'
 #' @examples
+#' \dontrun{
 #' fars_read('myfile.csv')
+#' }
 #'
 #' @importFrom readr read_csv
 #' @importFrom dplyr tbl_df
@@ -40,7 +42,9 @@ fars_read <- function(filename) {
 #'    given year.
 #'
 #' @examples
-#' make_filename('2002')
+#' \dontrun{
+#' make_filename('2013')
+#' }
 #'
 #' @export
 
@@ -67,7 +71,9 @@ make_filename <- function(year) {
 #' @importFrom magrittr %>%
 #'
 #' @examples
-#' fars_read_years(list('2002','2007'))
+#' \dontrun{
+#' fars_read_years(list('2013','2015'))
+#' }
 #'
 #' @export
 
@@ -105,7 +111,9 @@ fars_read_years <- function(years) {
 #' @importFrom magrittr %>%
 #'
 #' @examples
-#' fars_summarize_years(list('2002','2007'))
+#' \dontrun{
+#' fars_summarize_years(list('2013','2015'))
+#' }
 #'
 #' @export
 
@@ -133,7 +141,9 @@ fars_summarize_years <- function(years) {
 #' @importFrom graphics points
 #'
 #' @examples
-#' fars_map_state(13, 2002)
+#' \dontrun{
+#' fars_map_state(13, 2013)
+#' }
 #'
 #' @export
 

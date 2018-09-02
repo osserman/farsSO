@@ -23,6 +23,8 @@ dataframe of MONTHS and year, for all rows in the file with the input year.
 Errors could come from years being improperly formatted.
 }
 \examples{
-fars_read_years(list('2002','2007'))
+\dontrun{
+fars_read_years(list('2013','2015'))
+}
 
 }

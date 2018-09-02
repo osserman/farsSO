@@ -20,6 +20,8 @@ the files contents as a csv and outputs the data as a tbl. Errors could
 result from the file being a format the cannot be read by readr::read_csv
 }
 \examples{
+\dontrun{
 fars_read('myfile.csv')
+}
 
 }

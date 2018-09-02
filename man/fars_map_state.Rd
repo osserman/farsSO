@@ -20,6 +20,8 @@ Errors could come from years being improperly formatted or state.num not
 being coercible to integer.
 }
 \examples{
-fars_map_state(13, 2002)
+\dontrun{
+fars_map_state(13, 2013)
+}
 
 }
