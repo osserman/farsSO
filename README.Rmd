@@ -1,0 +1,24 @@
+---
+title: "README"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, eval=FALSE)
+```
+
+## farsSO Package
+
+This is a package for the third course in the Johns Hopkins University *Advanced R* Specialization - Building R Packages - on [Coursera](https://www.coursera.org/specializations/r), taught by Roger D. Peng and Brooks Anderson. The functions and data in the package are provided by the course instructors, while the documentation and package setup is completed by the student. This is an R Markdown format used for publishing markdown documents to GitHub. When you click the **Knit** button all R code chunks are run and a markdown file (.md) suitable for publishing to GitHub is generated.
+
+## What the Package Does
+
+The package provides a portal to explore 3 years of traffic fatality data (2013-2015) sourced from the Fatality Analysis Reporting System. 
+
+## Primary Functions
+
+The function `fars_summarize_years` provides a table with a breakdown by month of fatal accidents in each of the years provided to the function. 
+
+The function `fars_map_state` plots a map of the selected state along with points for each fatality in the state in the year selected. 
+
+Only years 2013,2014 and 2015 are provided in the package. 
