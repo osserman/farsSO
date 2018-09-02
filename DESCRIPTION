@@ -8,7 +8,8 @@ Maintainer: Stephen O. <stephen@notplanningtomaintainthis.net>
 Description: Creates functions to load, visualize and analyze data from Fatality Analysis Reporting System.
 License: GPL (>= 2)
 Encoding: UTF-8
-Imports: dplyr, magrittr, maps, readr, tidyr
+Imports: dplyr, magrittr, maps, readr, tidyr, knitr, testthat
+VignetteBuilder: knitr
 URL: https://github.com/osserman/farsSO
 LazyData: true
 RoxygenNote: 6.1.0
