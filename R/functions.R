@@ -1,3 +1,5 @@
+globalVariables(c('STATE','MONTH','year','n'))
+
 #' Print "Fars Read"
 #'
 #' This is a simple function that takes a filename (provided by user
