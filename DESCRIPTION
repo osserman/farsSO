@@ -1,12 +1,13 @@
 Package: farsSO
 Type: Package
-Date:  2018-08-31
+Date: 2018-08-31
 Title: Fiddle With Fatality Analysis Reporting System Data
 Version: 0.1.0
 Author: Stephen O.
 Maintainer: Stephen O. <stephen@notplanningtomaintainthis.net>
 Description: Creates functions to load, visualize and analyze data from Fatality Analysis Reporting System.
-License: What license is it under?
-Encoding: GPL (>= 2)
+License: GPL (>= 2)
+Encoding: UTF-8
 URL: https://github.com/osserman/farsSO
 LazyData: true
+RoxygenNote: 6.1.0
